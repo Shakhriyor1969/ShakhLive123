@@ -1,0 +1,17 @@
+{
+	"name": "AzureDataLakefromVM",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\adminuser\\Desktop\\backupfile",
+			"userId": "adminuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjZWJmYjhiYi02YTlmLTRhNGUtYjBmNi0xYjkzMjg3NzlhYWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

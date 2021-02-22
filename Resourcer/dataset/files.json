@@ -1,0 +1,17 @@
+{
+	"name": "files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakefromVM",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
